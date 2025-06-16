@@ -1,0 +1,46 @@
+.container {
+  width: 300px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  border: 2px solid;
+}
+
+.header, .nav, .footer {
+  display: inline-block;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: pink;
+  padding: 20px;
+  
+}
+
+.nav {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+}
+
+.footer {
+  background-color: mediumorchid;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  width: 300px;
+}
+.left-panel {
+  background-color: pink;
+  width: 100px;
+  padding: 40px ;
+  box-sizing: border-box;
+}
+.main {
+  background-color: white;
+  width: 200px;
+  padding: 40px ;
+}
