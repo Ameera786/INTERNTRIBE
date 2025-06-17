@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .container {
+      width: 400px;
+      margin: 20px auto;
+      font-family: sans-serif;
+      background-color: lightgray;
+
+    }
+
+    .headfoot {
+      text-align: center;
+      padding: 20px;
+      border: 3px solid white;
+    }
+
+    .section {
+      text-align: center;
+      padding: 10px;
+      border: 3px solid white;
+
+    }
+
+    .content-area {
+      display: flex;
+
+    }
+
+    .left {
+      border: 3px solid white;
+      width: 230px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+    }
+
+    .right-side {
+      width: 230px;
+
+    }
+
+    .right1,
+    .right2 {
+      height: 105px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 3px solid white;
+    }
+
+    .inline-text {
+      display: inline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="headfoot">
+      <span class="inline-text">&ltheader&gt</span>
+    </div>
+
+    <div class="section">
+      <span class="inline-text">&ltnav&gt</span>
+    </div>
+
+    <div class="content-area" >
+      <div class="left">
+        <span class="inline-text">&ltmain&gt</span>
+      </div>
+      <div class="right-side">
+        <div class="right1">
+          <span class="inline-text">&ltaside&gt</span>
+        </div>
+        <div class="right2">
+          <span class="inline-text">&ltsection&gt</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <span class="inline-text">&ltaside&gt</span>
+    </div>
+
+    <div class="headfoot">
+      <span class="inline-text">&ltfooter&gt</span>
+    </div>
+
+  </div>
+</body>
+
+</html>

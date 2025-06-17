@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      width: 400px;
+      margin: 20px auto;
+      border: 2px solid gray;
+    
+    }
+
+    .section {
+      text-align: center;
+      padding: 10px;
+      border-bottom: 1px solid gray;
+    }
+
+    .content-area {
+      height: 100px;
+      border-bottom: 1px solid gray;
+      
+    }
+
+    .left, .right {
+      display: inline-block;
+      height: 100px;
+      text-align: center;
+      padding-top: 40px; 
+      box-sizing: border-box;
+    }
+
+    .left {
+      width: 15%;
+      border-right: 1px solid gray;
+    }
+
+    .right {
+      width: 50%;
+    }
+
+    .inline-text {
+      display: inline;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="section">
+      <span class="inline-text">Header Section</span>
+    </div>
+
+    <div class="section">
+      <span class="inline-text">Navigation Bar</span>
+    </div>
+
+    <div class="content-area">
+      <div class="left">
+        <span class="inline-text">Index</span>
+      </div>
+      <div class="right">
+        <span class="inline-text">Content section</span>
+      </div>
+    </div>
+
+    <div class="section" style="border-bottom: none;">
+      <span class="inline-text">Footer Section</span>
+    </div>
+
+  </div>
+
+</body>
+</html>

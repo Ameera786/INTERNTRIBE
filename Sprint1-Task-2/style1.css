@@ -1,0 +1,62 @@
+.cont {
+  display: grid;
+  grid-template-areas:
+    "h h"
+    "nav nav"
+    "sec asi"
+    "art asi"
+    "footer footer";
+  grid-template-columns: 1fr 1fr;
+  width: 300px;
+  border: 1px double black;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 3px;
+  background-color: rgb(221, 215, 215);
+  font-family: sans-serif;
+}
+
+.header,
+.nav,
+.footer {
+  border: 1px solid black;
+  margin: 2px;
+  padding: 10px;
+  background-color: white;
+}
+
+.header {
+  grid-area: h;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.footer {
+  grid-area: footer;
+
+}
+
+.section,
+.article {
+  grid-area: sec;
+  width: 100px;
+  margin: 2px ;
+  border: 1px solid black;
+  padding: 30px;
+  background-color: white;
+}
+
+.article {
+  grid-area: art;
+}
+
+.aside {
+  grid-area: asi;
+  justify-items: stretch;
+  margin: 2px 2px;
+  border: 1px solid black;
+  padding-top: 60px;
+  background-color: white;
+}

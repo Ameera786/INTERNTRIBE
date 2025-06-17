@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      font-family: Arial, sans-serif;
+      width:500px;
+      margin: 20px auto;
+      border:1px solid  #2c71c0 ;
+      background-color: #2c71c0;
+      text-align: center;
+    }
+    .center{
+        height:80px;
+        
+    }
+    
+    .header, .footer {
+      display: block;
+      margin: 2px;
+      background-color: #e6f2ff;    
+      border: 3px solid #2c71c0;        
+      color: black;
+      padding: 25px;
+     
+     
+    }
+    .footer{
+        margin-top: 8px;
+        margin-left: 114px;
+    }
+
+    .menu, .main, .right {
+      display: inline-block;
+      background-color: #e6f2ff;       
+      border: 3px solid #2c71c0;        
+      color: black;
+      padding: 30px;
+     
+  
+    }
+
+    .menu {
+      height: 94px;
+      margin: 2px;
+      
+    }
+
+    .main
+    {
+        width:150px;
+    }
+    .right {
+      width: 98px;
+    }
+
+    
+
+    .header:hover, .footer:hover,
+    .menu:hover, .main:hover, .right:hover {
+        
+      cursor: pointer;
+      transform: scale(1.02);
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+    <span class="header">Header</span>
+    <div class="center">
+    <span class="menu">Menu</span>
+    <span class="main">Main</span>
+    <span class="right">Right</span>
+    </div>
+    <div class="center">
+    <span class="footer">Footer</span>
+   </div>
+   </div>
+
+</body>
+</html>

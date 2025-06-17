@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 5px;
+            max-width: 400px;
+            margin: 20px auto;
+        }
+
+        .header {
+            grid-row: 1;
+            background-color: #333;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .nav-bar {
+            grid-row: 2;
+            background-color: #666;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .slideshow {
+            grid-row: 3;
+            background-color: #292626;
+            color: white;
+            padding: 70px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .new {
+            background-color: #918888;
+        }
+
+        .image-container {
+            grid-row: 4;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: #918888;
+        }
+
+        .image-container div {
+            background-color: #ddd;
+            height: 90px;
+            margin: 10px;
+        }
+
+        .footer {
+            grid-row: 5;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="header">Header</div>
+        <div class="nav-bar">Navigation Bar</div>
+        <div class="new">
+            <div class="slideshow">Slideshow</div>
+            <div class="image-container">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+
+</html>
