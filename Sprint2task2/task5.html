@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <script>
+        let password = prompt("Enter your password:")
+
+        let hasLowercase = false
+        let hasUppercase = false
+        let hasDigit = false
+        let hasSpecial = false
+
+        let specialCharacters = "!@#$%^&*()-_=+[]{};:'\",.<>?/\\|`~"
+
+        for (let i = 0; i < password.length; i++) {
+            let ch = password[i]
+
+            if (ch >= 'a' && ch <= 'z') {
+                hasLowercase = true
+            } else if (ch >= 'A' && ch <= 'Z') {
+                hasUppercase = true
+            } else if (ch >= '0' && ch <= '9') {
+                hasDigit = true
+            } else if (specialCharacters.includes(ch)) {
+                hasSpecial = true
+            }
+        }
+
+        if (password.length >= 8 && hasLowercase && hasUppercase && hasDigit && hasSpecial
+        ) {
+            console.log("Your password is strong!");
+        } else {
+            console.log(" password is not strong.");
+        }
+    </script>
+</body>
+
+</html>

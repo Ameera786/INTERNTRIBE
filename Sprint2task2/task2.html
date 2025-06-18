@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <script>
+        //sum
+        let sum = 0
+        do {
+            var num = Number(prompt("enter the numbers:"))
+            sum += num
+        } while (num != 0)
+        console.log("sum:" + sum)
+        //age
+        let age = Number(prompt("Enter the age"))
+        if (age < 16) {
+            console.log("You can't drive")
+        }
+        else if (age >= 16 && age <= 17) {
+            console.log("You can drive but not vote")
+        } else if (age >= 18 && age <= 24) {
+            console.log("You can vote but not rent a car")
+        } else {
+            console.log("You can do pretty much anything")
+        }
+    </script>
+</body>
+
+</html>
