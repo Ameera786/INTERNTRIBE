@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <script>
+        let name=prompt("Enter your name:")
+        let age=Number(prompt("Enter your age:"))
+        let isStudentInput=prompt("Are you a student? (yes/no):")
+        let isStudent=isStudentInput.toLowerCase() == "yes"
+
+        console.log("Initial:")
+        console.log("Name:"+name)
+        console.log("Age:"+age)
+        console.log("isStudent:"+isStudent)
+
+        name=prompt("Enter a new name to update:")
+        age+=1
+        isStudent=!isStudent
+
+        console.log("\nUpdation:")
+        console.log("Name:"+name)
+        console.log("Age:"+age)
+        console.log("isStudent:"+isStudent)
+    </script>
+</body>
+
+</html>
