@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid black;
+    font: sans-serif;
+
+}
+
+header {
+    background-color: rgb(243, 204, 233);
+    padding: 20px;
+}
+
+nav {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+section {
+    background-color: rgb(243, 149, 238);
+    padding: 40px;
+    width: 10%;
+
+
+
+
+}
+
+article {
+
+    padding: 80px;
+
+
+}
+
+footer {
+    background-color: rgba(203, 93, 236, 0.616);
+    padding: 20px;
+
+}

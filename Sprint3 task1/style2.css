@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    text-align: center;
+    font: sans-serif;
+
+}
+header{
+    height: 50%;
+    background-color: rgb(243, 204, 233);
+    padding: 20px;
+    
+}
+nav{
+    background-color: blueviolet;
+    color: white;
+    height: 20%;
+    padding: 10px;
+}
+article{
+  padding: 50px;
+}
+footer{
+    background-color: rgba(203, 93, 236, 0.616);
+    padding: 20px;
+}

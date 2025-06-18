@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.first{
+    background-color: rgb(209, 173, 243);
+    padding: 10px;
+    font-weight: bold;
+    margin: 10px;
+
+}
+.two{
+    margin: 10px;
+    padding:10px;
+    background-color: rgb(209, 173, 243);
+}
+.three{
+    height: 100px;
+    margin: 10px;
+    background-color: rgb(209, 173, 243);
+}
+.four{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    margin: 5px;
+}
+.four1,.four2,.four3{
+    margin: 5px;
+    width: 32%;
+    background-color: rgb(209, 173, 243);
+}
+.five{
+    background-color: rgb(209, 173, 243);
+    padding: 10px;
+    margin: 10px;
+}

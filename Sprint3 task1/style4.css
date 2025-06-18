@@ -1,0 +1,93 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+.top{
+    color: white;
+    background-color: #088596f5;
+    padding: 5px;
+}
+
+.big{
+    background-color: aliceblue;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header{
+    background-color: rgb(102, 190, 190);
+    padding: 20px;
+}
+.two{
+     display: flex;
+     flex-direction: row;        
+     
+}
+
+.Intro{
+    background-color: rgb(102, 190, 190);
+    width: 100%;
+    margin: 10px;
+    justify-content: center;
+    align-content: center;
+    
+    
+
+}
+.hcta{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
+}
+.hero{
+    background-color: rgb(102, 190, 190);
+    padding: 50px;
+    margin: 10px;
+}
+.cta{
+    background-color: yellow;
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    align-content: center;
+    
+}
+.features{
+    margin: 10px;
+    padding: 40px;
+     background-color: rgb(102, 190, 190);
+
+}
+.four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.four1{
+    width: 100%;
+    background-color: rgb(102, 190, 190);
+    padding: 20px;
+    margin: 10px;
+}
+.four2{
+     background-color: yellow;
+     padding: 10px;
+     margin: 10px;
+     width: 50%;
+     justify-content: center;
+     align-content: center;
+}
+.footer{
+     background-color: rgb(102, 190, 190);
+    padding: 20px;
+}
