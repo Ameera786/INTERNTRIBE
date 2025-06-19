@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+
+}
+
+.one {
+    display: flex;
+    height: 70px;
+}
+
+.one1,
+.one2,
+.one3 {
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    margin: 2px;
+    width: 100%;
+
+}
+
+.two {
+    display: flex;
+    margin: 2px;
+    height: 250px;
+}
+
+.two1 {
+    background-color: darkgray;
+    width: 70%;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two2 {
+    background-color: yellow;
+    width: 20%;
+    height: 50px;
+
+}
+
+.two3 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.t1,
+.t2,
+.t3,
+.t4 {
+    background-color: rgb(54, 97, 11);
+    height: 100%;
+    margin: 2px;
+}

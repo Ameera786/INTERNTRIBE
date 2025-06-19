@@ -1,0 +1,82 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: large;
+}
+.one{
+    background-color: rgb(29, 238, 238);
+    padding: 10px;
+    margin: 5px;
+}
+.two{
+    display: flex;
+    
+
+}
+.two1{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+    width: 40%;    
+    
+    
+}
+.t1{
+    background-color: rgb(184, 140, 224);
+    height: 130px;
+    margin: 5px;
+    padding: 10px;
+}
+.t2{
+    background-color: rgb(93, 150, 37);
+    height: 190px;
+    margin: 5px;
+    padding: 10px;
+}
+.two2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.t3{
+    background-color:rgb(211, 165, 14) ;
+    margin: 5px;
+    height: 200px;
+    padding: 10px;
+}
+.t4{
+    background-color:rgb(87, 63, 87) ;
+    margin: 5px;
+    height: 35%;
+    padding: 10px;
+}
+.three{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    
+}
+.three1{
+    background-color: rgb(15, 107, 76);
+    margin: 5px;
+    height: 100px;
+    padding: 10px;
+    width: 70%;
+    
+    
+}
+.three2{
+    background-color: rgb(245, 175, 210);
+    margin: 5px;
+    padding: 10px;
+    width: 30%;
+}
+.four{
+    background-color: rgba(252, 180, 25, 0.774);
+    margin: 5px;
+    padding: 10px;
+}
