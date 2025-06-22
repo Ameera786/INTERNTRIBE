@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.one {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #fcfafa;
+
+}
+
+.grp {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.one2 {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  list-style: none;
+}
+
+.one3 {
+  font-size: 14px;
+  color: red;
+  margin-right: 200px;
+}
+
+
+.two {
+  display: flex;
+  gap: 100px;
+  
+}
+
+.two img {
+  width: 41%;
+}
+
+.sidetext {
+  width: 40%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.label {
+  color: red;
+  font-weight: bold;
+
+}
+
+.sidetext h1 {
+  margin: 10px 0;
+}
+
+.sidetext p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.side {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.but1 {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+
+}
+
+.note {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+
+.services {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.services h2 {
+  margin: 10px 0 40px;
+}
+
+.servit {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+
+}
+
+.last {
+  width: 300px;
+  text-align: center;
+}
+
+.last img {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.last h3 {
+  margin-bottom: 10px;
+}
+
+.last p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+
+}
+
+.red {
+  color: red;
+}
