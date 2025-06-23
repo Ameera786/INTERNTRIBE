@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+</head>
+<body>
+    <input type="text" id="ui" placeholder="Enter a text">
+    <button onclick="clickk()">Button</button>
+    <p id="display"></p>
+</body>
+<script>
+    function clickk(){
+    let ip=document.getElementById("ui").value;
+    document.getElementById("display").innerHTML=ip;
+    }
+</script>
+</html>
