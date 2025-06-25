@@ -1,0 +1,41 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1 class="one">Google</h1>
+    <h1 class="two">Google</h1>
+    <h1 class="two">Google</h1>
+    <h1 class="one">Google</h1>
+    <p id="display"></p>
+    <button onclick="clicked()">Button</button>
+</body>
+     <script>
+        var butt=document.querySelector("button");
+        function clicked()
+        {
+          butt.style.border="none";
+          butt.style.backgroundColor="green";
+          butt.style.padding="10px 20px";
+          butt.style.color="white";
+          butt.style.borderRadius="10px";
+          var head1=document.querySelectorAll(".one")
+          head1[0].style.backgroundColor="deepskyblue";
+          head1[0].style.color="White";
+          head1[0].style.fontFamily="cursive";
+          head1[1].style.backgroundColor="deepskyblue";
+          head1[1].style.color="White";
+          head1[1].style.fontFamily="cursive";
+          var head2=document.querySelectorAll(".two");
+          head2[0].style.backgroundColor="gray";
+          head2[0].style.color="white";
+          head2[0].style.fontFamily="Lucida";
+          head2[1].style.backgroundColor="gray";
+          head2[1].style.color="white";
+          head2[1].style.fontFamily="Lucida";
+          var pd=document.getElementById("display");
+          pd.innerHTML="Search. Discover. Connect. Organize."
+        }
+      </script>
+</html>

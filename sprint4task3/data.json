@@ -1,0 +1,18 @@
+[
+ 
+ {
+    "name":"Ameera",
+    "email":"amee@email.com",
+    "skills":"Dart"
+    },
+    {
+    "name":"Reshma",
+    "email":"reshma@email.com",
+    "skills":"C"
+    },
+    {
+    "name":"Abi",
+    "email":"abi@email.com",
+    "skills":"nodeJS"
+    }
+]
