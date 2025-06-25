@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+</head>
+<body>  
+</body>
+<script>
+    var numb=[1,2,3,4,5]
+    console.log("given array")
+    console.log(numb)
+    function squaredNumbers(numb){
+        for(let i=0;i<numb.length;i++){
+            numb[i]=numb[i]*numb[i]
+        }
+        return numb
+    }
+    console.log("using traditional function")
+    console.log(squaredNumbers(numb))
+    var squared=(numb1)=>{numb1.map(n=>n*n);return numb1;}
+    console.log("using arrow function")
+    console.log(squared(numb))
+</script>
+</html>

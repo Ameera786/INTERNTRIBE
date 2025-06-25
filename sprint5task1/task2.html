@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+</head>
+<body>
+    
+</body>
+<script>
+    const obj1={a:1,b:2}
+    const obj2={c:3,d:4}
+    const obj3={e:5,f:6}
+    function mergeObjects(ob1,ob2,ob3){
+    const obj4={...ob1,...ob2,...ob3}
+    return obj4
+    }
+    console.log("Merged object:")
+    console.log(mergeObjects(obj1,obj2,obj3))
+
+</script>
+</html>

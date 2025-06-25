@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+    <script>
+
+        function findIndex(val, arr) {
+            const firstIndex = arr.indexOf(val);
+            const lastIndex = arr.lastIndexOf(val);
+            return {  
+                firstIndex, lastIndex
+             }
+        }
+        const numbers = [1, 2, 3, 2, 4, 2, 5];
+        console.log(findIndex(2,numbers));  
+    </script>
+
+</body>
+
+</html>
