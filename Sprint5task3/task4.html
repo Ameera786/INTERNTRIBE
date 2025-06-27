@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <script>
+        function grpProp(grps, itm) {
+            const keys = itm[grpKey]; 
+            if (!grps[keys]) {
+                grps[keys] = [];
+            }
+            grps[keys].push(itm);
+            return grps;
+        }
+        const people = [
+            { name: 'Alice', age: 21 },
+            { name: 'Bob', age: 25 },
+            { name: 'Charlie', age: 21 },
+            { name: 'David', age: 25 },
+            { name: 'Eve', age: 22 }
+        ];
+        const grpKey = 'age';
+        const grouped = people.reduce(grpProp, {});
+        console.log(grouped);
+    </script>
+</body>
+</html>

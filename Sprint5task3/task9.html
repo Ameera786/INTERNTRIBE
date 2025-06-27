@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+    <script>
+        const today = new Date();
+        function findOverdueTask(task) {
+            return new Date(task.dueDate) < today;
+        }
+        const tasks = [
+            { taskName: 'Task 1', dueDate: '2023-06-01' },
+            { taskName: 'Task 2', dueDate: '2024-05-01' },
+            { taskName: 'Task 3', dueDate: '2024-01-01' }
+        ];
+        const ovrDueTsk = tasks.find(findOverdueTask);
+        console.log(ovrDueTsk); 
+    </script>
+
+</body>
+</html>

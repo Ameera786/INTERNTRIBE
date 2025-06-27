@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+    <script>
+        const products = [
+            { id: 101, name: 'Laptop' },
+            { id: 102, name: 'Phone' },
+            { id: 103, name: 'Tablet' }
+        ];
+        function isPdt(pdt) {
+            return pdt.id == 102;
+        }
+        const result = products.find(isPdt);
+        console.log(result);
+    </script>
+
+</body>
+</html>

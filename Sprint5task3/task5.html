@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+    <script>
+        function calculateTotal(total, item) {
+            return total + item.price;
+        }
+        const cart = [
+            { item: 'apple', price: 1.5 },
+            { item: 'banana', price: 2.0 },
+            { item: 'orange', price: 1.25 }
+        ];
+        const totalPrice = cart.reduce(calculateTotal, 0);
+        console.log(totalPrice);
+    </script>
+
+</body>
+</html>

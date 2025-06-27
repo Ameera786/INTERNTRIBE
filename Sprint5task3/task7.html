@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+    <script>
+        function findStudentByName (student) {
+            return student.name == 'Bob';
+        }
+        const students = [
+            { name: 'Alice', age: 21 },
+            { name: 'Bob', age: 25 },
+            { name: 'Charlie', age: 23 }
+        ];
+
+        const result = students.find(findStudentByName);
+        console.log(result); 
+    </script>
+
+</body>
+</html>

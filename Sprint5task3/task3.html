@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+    <script>
+        function countWords(counts, word) {
+            if (counts[word]) {
+                counts[word] += 1;
+            } else {
+                counts[word] = 1;
+            }
+            return counts;
+        }
+        const words = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple'];
+        const counted = words.reduce(countWords, {});
+        console.log(counted); 
+    </script>
+
+</body>
+</html>
