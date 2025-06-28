@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+    <script>
+        let search;
+        function isMatched(book) {
+            return book.title == search;
+        }
+        function findBookByTitle(bookArr, title) {
+            search = title;
+            return bookArr.find(isMatched);
+        }
+        const books = [
+            { title: '1984', author: 'George Orwell' },
+            { title: 'To Kill a Mockingbird', author: 'Harper Lee' },
+            { title: 'The Great Gatsby', author: 'F. Scott Fitzgerald' }
+        ];
+        const result = findBookByTitle(books, '1984');
+        console.log(result)
+    </script>
+
+</body>
+</html>

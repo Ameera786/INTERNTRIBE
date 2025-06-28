@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+  <script>
+    function isMatch(employee) {
+      return employee.id ==2;
+    }
+    function findEmployeeById(employe) {
+      return employe.find(isMatch);
+    }
+    const employees = [
+      { id: 1, name: 'Alice', position: 'Manager' },
+      { id: 2, name: 'Bob', position: 'Engineer' },
+      { id: 3, name: 'Charlie', position: 'Technician' }
+    ];
+    const result = findEmployeeById(employees);
+    console.log(result); 
+  </script>
+
+</body>
+</html>

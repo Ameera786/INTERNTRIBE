@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+  <script>
+    function perDet(person) {
+      const { firstName, lastName, age } = person;
+      return `${firstName} ${lastName} is ${age} years old.`;
+    }
+    const pers = { firstName: 'John', lastName: 'Doe', age: 30 };
+    const result = perDet(pers);
+    console.log(result);
+  </script>
+
+</body>
+</html>

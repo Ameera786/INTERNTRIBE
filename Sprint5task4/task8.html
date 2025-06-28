@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+  <script>
+    function getUnique(arr1, arr2) {
+      let comb = [...arr1, ...arr2];
+      let uniqueSet = new Set(comb);
+      let uniqueArr = [...uniqueSet];
+      return uniqueArr;
+    }
+    const result = getUnique([1, 2, 3], [3, 4, 5]);
+    console.log(result); 
+  </script>
+
+</body>
+</html>

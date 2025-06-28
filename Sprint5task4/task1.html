@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+    <script>
+        function isPos(num) {
+            return num > 0;
+        }
+        function findFirst(numb) {
+            return numb.find(isPos);
+        }
+        const arr = [-5, -3, 0, 9, 2];
+        const result = findFirst(arr);
+        console.log(result);
+    </script>
+
+</body>
+</html>

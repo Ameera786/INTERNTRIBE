@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+  <script>
+    const getEven = (numb) => {
+      const evenNum = numb.filter(num => num % 2 == 0);
+      const squared = evenNum.map(num => num * num);
+      return squared;
+    };
+    const numbers = [1, 2, 3, 4, 5, 6];
+    const result = getEven(numbers);
+    console.log(result); 
+  </script>
+
+</body>
+</html>

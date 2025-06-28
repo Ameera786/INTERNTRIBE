@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+  <script>
+    function getPdtName(pdt) {     
+      const total = pdt.reduce((x, { price }) => x + price, 0);
+      const avg = total / pdt.length;
+      const exp = pdt.filter(({ price }) => price > avg);
+      const names = exp.map(({ name }) => name);
+      return names;
+    }
+    const items = [
+      { name: 'Laptop', price: 1000 },
+      { name: 'Phone', price: 500 },
+      { name: 'Tablet', price: 700 }
+    ];
+    const result = getPdtName(items);
+    console.log(result);
+  </script>
+
+</body>
+</html>
