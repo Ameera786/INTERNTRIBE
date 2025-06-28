@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Arithmetic Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div id="calc">
+      <input type="number" id="num1" placeholder="Enter number 1">
+      <input type="number" id="num2" placeholder="Enter number 2">
+
+      <div class="buttons">
+        <button onclick="add()">Add</button>
+        <button onclick="sub()">Subtract</button>
+        <button onclick="mul()">Multiply</button>
+        <button onclick="divi()">Divide</button>
+        <button onclick="clearAll()">Clear</button>
+      </div>
+      <div id="output">
+        <span id="result"></span>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
