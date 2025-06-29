@@ -1,0 +1,29 @@
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.clock {
+  background: linear-gradient(90deg, #731186, #09ee96);
+  padding: 30px 60px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(27, 4, 15, 0.5);
+  text-align: center;
+  color: white;
+}
+
+#time {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#greet {
+  font-family:cursive;
+  font-size: 28px;
+  color: rgb(251, 255, 0);
+  font-weight: 600;
+}

@@ -1,0 +1,61 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(to bottom right, #15f528, #928dab);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.clock-wrapper {
+  background: linear-gradient(90deg, #ddf313, #fc55f3);
+  border-radius: 20px;
+  padding: 50px 90px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
+  text-align: center;
+}
+
+#current-time {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 72px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 4px;
+  margin-bottom: 25px;
+  animation: pulse 1s infinite alternate;
+  text-shadow: 0 0 10px #fff, 0 0 20px #ff00cc, 0 0 30px #ff00cc;
+}
+
+#time-message {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #5eff00;
+  position: relative;
+  animation: slideIn 1.2s ease forwards;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.95; }
+  100% { transform: scale(1.02); opacity: 1; }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
