@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Employee Management Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Employee Management Dashboard</h1>
+    <button id="toggle-mode">Toggle Dark/Light Mode</button>
+  </header>
+
+  <section class="controls">
+    <input type="text" id="searchInput" placeholder="Search by name"  autocomplete="off">
+    <select id="departmentFilter">
+      <option value="all">All Departments</option>
+      <option value="Engineering">Engineering</option>
+      <option value="HR">HR</option>
+      <option value="Sales">Sales</option>
+    </select>
+    <button id="uppercaseBtn">Convert Names to Uppercase</button>
+    <button id="averageSalaryBtn">Calculate Average Salary</button>
+  </section>
+
+  <section class="table-section">
+    <table id="employeeTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Department</th>
+          <th>Role</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="results">
+    <p id="avgSalary">Average Salary:--- </p>
+    <p id="searchResult">Searched Employee:--- </p>
+    <p id="employeeCount">Total Employees: </p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
