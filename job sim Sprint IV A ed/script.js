@@ -48,7 +48,7 @@ document.getElementById("nameSearch").addEventListener("input", () => {
   const val = document.getElementById("nameSearch").value.trim().toLowerCase();
   const match = employees.find(emp => emp.name.toLowerCase() === val);
   document.getElementById("searchStatus").textContent = match
- ? `Found: ${match.name}, Role: ${match.role}, Dept: ${match.department}`
+ ? `Found: ${match.name}, Role: ${match.role}, Dept: ${match.department}, Salary: ${match.salary}`
     : "No match found";
 });
 
