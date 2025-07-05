@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Async Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Async Task Manager</h1>
+  </header>
+
+  <div class="controls">
+    <button onclick="loadTasks()">Load Tasks</button>
+    <button id="startBtn" onclick="startProgress()">Start Progress</button>
+    <button onclick="stopProgress()">Stop Progress</button>
+    <button onclick="delayNotification()">Delay Notification</button>
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+  </div>
+
+  <div id="taskContainer" class="tasks"></div>
+  <div id="notification" class="notification"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

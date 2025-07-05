@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #EEAECA;
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.dark-mode {
+  background: #1e1e1e;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.task {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.dark-mode .task {
+  background: #333;
+}
+
+
+.notification {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color:blue;
+}
+
+.progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgb(214, 214, 24);
+  transition: width 0.3s;
+  z-index: 0;
+}
+
+.task-content {
+  position: relative; 
+  display: flex;
+  justify-content: space-around;
+}
+.task.completed .progress-bar {
+  background-color: green;
+}
